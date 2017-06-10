@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Trading Tools</title>
-    <link>https://honzajde.github.io/</link>
-    <description>Recent content on Trading Tools</description>
+    <title>Posts on Trading Tools</title>
+    <link>https://honzajde.github.io/post/</link>
+    <description>Recent content in Posts on Trading Tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>honzajde</copyright>
     <lastBuildDate>Sat, 10 Jun 2017 15:53:18 +0200</lastBuildDate>
-    <atom:link href="https://honzajde.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://honzajde.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Trading Tools (./streams script)</title>
@@ -153,35 +153,6 @@
 &lt;p&gt;TL;DR&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://honzajde.github.io/media/bobi.jpg&#34; alt=&#34;bobi&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Q&amp;A</title>
-      <link>https://honzajde.github.io/page/qa/</link>
-      <pubDate>Sat, 10 Jun 2017 15:41:32 +0200</pubDate>
-      <guid>https://honzajde.github.io/page/qa/</guid>
-      <description>
-
-&lt;h2 id=&#34;trading-toolkit&#34;&gt;Trading Toolkit&lt;/h2&gt;
-
-&lt;p&gt;What is this?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Set of commandline tools for day traders of US stocks (Equities, namely on NASDAQ).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;What are benefits of this toolkit?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Huge timesavings and not only. Many time&amp;rsquo;s there is tens of minutes of time left since the news are being released at morning preparation. The minutes matter.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Is it opensource?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Not yet. I don&amp;rsquo;t have currently capacity to support it.&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     
