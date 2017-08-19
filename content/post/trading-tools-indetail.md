@@ -1,5 +1,5 @@
 +++
-title = "Trading Tools (in detail; +joke)"
+title = "Trading Tools Step by Step"
 description = "Trading tools introduction."
 date = "2017-06-10T15:44:04+02:00"
 author = "honzajde"

@@ -21,8 +21,9 @@ Screenshot of `sa fu` command:
 
 `sa fu GLYC` (part 1)
 
-![sa fu GLYC 1](/media/sa1.PNG)
+![sa fu GLYC 1](/media/sa_1.PNG)
 
 `sa fu GLYC` (part 2)
 
-![sa fu GLYC 2](/media/sa2.PNG)
+![sa fu GLYC 2](/media/sa_2.PNG)
+

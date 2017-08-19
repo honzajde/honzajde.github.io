@@ -21,4 +21,8 @@ The command that is constanty running is the `./streams` script.
 
 Streams example configuration:
 
-![streams](/media/streams2.PNG)
+![streams](/media/streams_config.PNG)
+
+Streams in action: 
+
+![streams](/media/streams_crop2.PNG)
