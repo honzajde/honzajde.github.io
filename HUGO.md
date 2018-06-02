@@ -7,7 +7,7 @@ serve locally (for devel):
 `hugo server`  
 
 serve locally with a given theme:
-`hugo serve -t <theme dir name>`
+`hugo server -t <theme dir name>`
 
 serve locally with drafts enabled:
 `hugo server -D`
