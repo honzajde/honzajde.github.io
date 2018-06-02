@@ -5,3 +5,16 @@ Desktop.ini
 
 # sass
 node_modules/
+
+# Custom
+config.toml
+TODO.md
+se
+
+# Hugo Themes
+themes/sam/
+themes/universal/
+themes/vex/
+themes/w3css/
+
+resources/
