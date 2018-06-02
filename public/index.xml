@@ -1,193 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Trading Tools</title>
+    <title>Homepage on Trading Tools</title>
     <link>https://honzajde.github.io/</link>
-    <description>Recent content on Trading Tools</description>
+    <description>Recent content in Homepage on Trading Tools</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>honzajde</copyright>
     <lastBuildDate>Sat, 10 Jun 2017 15:53:18 +0200</lastBuildDate>
-    <atom:link href="https://honzajde.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>Trading Tools (./streams script)</title>
-      <link>https://honzajde.github.io/2017/06/10/trading-tools-streams/</link>
-      <pubDate>Sat, 10 Jun 2017 15:53:18 +0200</pubDate>
-      <guid>https://honzajde.github.io/2017/06/10/trading-tools-streams/</guid>
-      <description>
-
-&lt;p&gt;The command that is constanty running is the &lt;code&gt;./streams&lt;/code&gt; script.&lt;/p&gt;
-
-&lt;h3 id=&#34;chat-stream&#34;&gt;Chat stream&lt;/h3&gt;
-
-&lt;h3 id=&#34;features-of-streams-script&#34;&gt;Features of &lt;code&gt;./streams&lt;/code&gt; script&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;combines multiple chat streams (standardized format)&lt;/li&gt;
-&lt;li&gt;Supports Twitter and Profitly&lt;/li&gt;
-&lt;li&gt;Highlighting - symbols, usernames&lt;/li&gt;
-&lt;li&gt;alerts matching (and sending alerts to soundQ)&lt;/li&gt;
-&lt;li&gt;filtering&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Streams example configuration:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://honzajde.github.io/media/streams_config.PNG&#34; alt=&#34;streams&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Streams in action:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://honzajde.github.io/media/streams_crop2.PNG&#34; alt=&#34;streams&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
+      <atom:link href="https://honzajde.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>Trading Tools (./sa fu command)</title>
-      <link>https://honzajde.github.io/2017/06/10/trading-tools-safu/</link>
-      <pubDate>Sat, 10 Jun 2017 15:52:58 +0200</pubDate>
-      <guid>https://honzajde.github.io/2017/06/10/trading-tools-safu/</guid>
-      <description>
-
-&lt;p&gt;One of the main commands of the toolkit is &lt;code&gt;sa fu&lt;/code&gt; command.&lt;/p&gt;
-
-&lt;h3 id=&#34;features-of-sa-fu-command&#34;&gt;Features of &lt;code&gt;sa fu&lt;/code&gt; command&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;fundamentals - cash, balancesheet, market position - every fact has exact date - indicated on the most right as difference and date (two last columns)&lt;/li&gt;
-&lt;li&gt;latest earnings and income statements (quarterly)&lt;/li&gt;
-&lt;li&gt;latest quotes&lt;/li&gt;
-&lt;li&gt;chats mentions - as of now it&amp;rsquo;s Twitter and Profitly combined&lt;/li&gt;
-&lt;li&gt;PRs with highlighting of keywords&lt;/li&gt;
-&lt;li&gt;splits&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Screenshot of &lt;code&gt;sa fu&lt;/code&gt; command:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sa fu GLYC&lt;/code&gt; (part 1)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://honzajde.github.io/media/sa_1.PNG&#34; alt=&#34;sa fu GLYC 1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sa fu GLYC&lt;/code&gt; (part 2)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://honzajde.github.io/media/sa_2.PNG&#34; alt=&#34;sa fu GLYC 2&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
     
-    <item>
-      <title>Trading Tools Step by Step</title>
-      <link>https://honzajde.github.io/2017/06/10/trading-tools-indetail/</link>
-      <pubDate>Sat, 10 Jun 2017 15:44:04 +0200</pubDate>
-      <guid>https://honzajde.github.io/2017/06/10/trading-tools-indetail/</guid>
-      <description>
-
-&lt;p&gt;The toolkit has approximately 50 packages, something like 30+ tools, and thousandes of features. I never counted them.&lt;/p&gt;
-
-&lt;h4 id=&#34;live-quotes&#34;&gt;Live Quotes&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;streaming quotes - live, not very reliable; volumes 15 minutes delayed;&lt;/li&gt;
-&lt;li&gt;replay of past streams&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;historical-quotes&#34;&gt;Historical Quotes&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;streaming + combine with other tools&lt;/li&gt;
-&lt;li&gt;command line charting (some experiment were done; deprecated)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;social-media-integration&#34;&gt;Social Media Integration&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;twitter and profitly streaming&lt;/li&gt;
-&lt;li&gt;stocktwits symbol exports&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;soundq&#34;&gt;SoundQ&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Text to speech server - chat alerts, reading VIP user, &amp;hellip;&lt;/li&gt;
-&lt;li&gt;Audio: Windows Narrator or Amazon Polly (configurable)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;calendar&#34;&gt;Calendar&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Announce important day hours&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;trade-halts&#34;&gt;Trade Halts&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Announce NASDAQ trading halts&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;earnings&#34;&gt;Earnings&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Overview - day before afterhours, today&amp;rsquo;s before open&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;competitors&#34;&gt;Competitors&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;company competitors (not very useful though, the way the original selection is )&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;links-server&#34;&gt;Links Server&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;opens links from the chat in 4 or 5 tabs (rotating between them)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;track-your-picks&#34;&gt;Track Your Picks&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;replacement for your excel sheets to keeping track of your picks&lt;/li&gt;
-&lt;li&gt;track everything in a single file - SYMBOLS file&lt;/li&gt;
-&lt;li&gt;organized into groups of symbols&lt;/li&gt;
-&lt;li&gt;hot symbols syntax and extracting, e.g. BABA!&lt;/li&gt;
-&lt;li&gt;watching exports from DAS Trader; all you need to do is to export your trading view&lt;/li&gt;
-&lt;li&gt;creates table of fundamentals in the SYMBOLS file; loads fundamentals for other groups you have created&lt;/li&gt;
-&lt;li&gt;generates files for DAS Trader - ready to import, link files to open the groups on finviz&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://honzajde.github.io/media/das-table.PNG&#34; alt=&#34;das micro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;TL;DR&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://honzajde.github.io/media/bobi.jpg&#34; alt=&#34;bobi&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
+      <item>
+        <title>Trading Tools - Social Streams</title>
+        <link>https://honzajde.github.io/trading-tools-streams/</link>
+        <pubDate>Sat, 10 Jun 2017 15:53:18 +0200</pubDate>
+        <guid>https://honzajde.github.io/trading-tools-streams/</guid>
+        <description>Trading Tools - Social Streams The command that is constanty running is the ./streams script.
+Features of ./streams script  can combine multiple social streams into standardized format support for Twitter and Profitly syntax highlighting - stock symbols, twitter usernames, &amp;hellip; configurable alerts - regexp matching sending alerts to soundQ filtering streams based on proprietary reputaion searching past streams configurable custom streams  Configuration example:
+Streams in action:
+ .</description>
+      </item>
     
-    <item>
-      <title>Q&amp;A</title>
-      <link>https://honzajde.github.io/page/qa/</link>
-      <pubDate>Sat, 10 Jun 2017 15:41:32 +0200</pubDate>
-      <guid>https://honzajde.github.io/page/qa/</guid>
-      <description>
-
-&lt;h2 id=&#34;trading-toolkit&#34;&gt;Trading Toolkit&lt;/h2&gt;
-
-&lt;p&gt;What is this?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Set of commandline tools for day traders of US stocks (Equities, namely on NASDAQ).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;What are benefits of this toolkit?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Huge timesavings and not only. Many time&amp;rsquo;s there is tens of minutes of time left since the news are being released at morning preparation. The minutes matter.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Is it opensource?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Not yet. I don&amp;rsquo;t have currently capacity to support it.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
+      <item>
+        <title>Trading Tools - Fundamental Analysis</title>
+        <link>https://honzajde.github.io/trading-tools-fundamentals/</link>
+        <pubDate>Sat, 10 Jun 2017 15:52:58 +0200</pubDate>
+        <guid>https://honzajde.github.io/trading-tools-fundamentals/</guid>
+        <description>Trading Tools - Fundamental Analysis One of the main commands of the toolkit is sa fu command.
+Features of sa fu command  fundamentals - cash, balancesheet, market position - every fact has exact date - indicated as a difference and an exact date latest earnings and income statements (quarterly) latest quotes chats mentions - as of now it&amp;rsquo;s Twitter and Profitly combined press releases (PRs) with highlight significant keywords like public offering, Clinical Trial, etc.</description>
+      </item>
+    
+      <item>
+        <title>Trading Tools - Overview</title>
+        <link>https://honzajde.github.io/trading-tools-overview/</link>
+        <pubDate>Sat, 10 Jun 2017 15:44:04 +0200</pubDate>
+        <guid>https://honzajde.github.io/trading-tools-overview/</guid>
+        <description>Trading Tools - Overview The toolkit has approximately 50 packages, something like 30+ tools, and thousandes of features. I never counted them.
+Live Quotes  streaming quotes - live, not very reliable; volumes 15 minutes delayed; replay of past streams  Historical Quotes  streaming of historical quotes combines with other tools command line charts (now deprecated)  Social Media Integration  Twitter and Profitly streaming stocktwits symbol exports  SoundQ  Text to speech server - chat alerts, reading VIP user, &amp;hellip; audio options: Windows Narrator or Amazon Polly  Calendar  Announces important day hours  Trade Halts  Announces NASDAQ trading halts  Earnings  Overview of earning reports - day before afterhours, today&amp;rsquo;s before open  Competitors  list of company competitors (not very useful though, the way the original selection is )  Links Server  displays links from social media in a dedicated browser window (opens links into fixed number of tabs)  SYMBOLS FILE  easy way for trader to track everything in a single file - SYMBOLS FILE replacement for your excel sheets to keeping track of your picks and notes organized into groups of symbols hot symbols syntax and extracting, e.</description>
+      </item>
+    
+      <item>
+        <title>Q&amp;A</title>
+        <link>https://honzajde.github.io/qa/</link>
+        <pubDate>Sat, 10 Jun 2017 15:41:32 +0200</pubDate>
+        <guid>https://honzajde.github.io/qa/</guid>
+        <description> Trading Tools - Q&amp;amp;A What is this?
+ Set of commandline tools for day traders of US stocks (Equities, namely on NASDAQ).
+ What are benefits of this toolkit?
+ Huge timesavings and not only. Many time&amp;rsquo;s there is tens of minutes of time left since the news are being released at morning preparation. The minutes matter.
+ Is it opensource?
+ Not yet.
+ </description>
+      </item>
     
   </channel>
 </rss>
