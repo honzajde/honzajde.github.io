@@ -3,20 +3,25 @@
 build public site:
 `hugo`
 
-serve locally (for dev):
+serve locally (for devel):
 `hugo server`  
 
-with drfts enabled:
+serve locally with a given theme:
+`hugo serve -t <theme dir name>`
+
+serve locally with drafts enabled:
 `hugo server -D`
+
+might be required:
+go to `./public` and do `git push` from there
 
 git push submodules:
 `git push --recurse-submodules=on-demand`
 
-update Hugo:
-`go get -u -v github.com/gohugoio/hugo`
-
 install binary:
 `choco install hugo -confirm`
+
+update hugo: download from releases page (unzip into portable)
 
 To publish:  
 
@@ -27,7 +32,7 @@ git commit -m ""
 git push --recurse-submodules=on-deman
 ```
 
-To save (also this works):
+To save new posts (this works):
 
 ```sh
 git add public content static themes
@@ -36,8 +41,16 @@ git add public content static themes
 
 ## Troubleshooting
 
-_push declined due to email privacy restrictions_
+### push declined due to email privacy restrictions
 [https://stackoverflow.com/questions/43378060/meaning-of-the-github-message-push-declined-due-to-email-privacy-restrictions]()
+
+Go to github settings/email and copy your noreply email address from there:
+
+```bash
+git config user.email {ID}+{username}@users.noreply.github.com
+git commit --amend --reset-author
+git push
+```
 
 ## Resources
 
