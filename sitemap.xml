@@ -2,13 +2,6 @@
   
     
       <url>
-        <loc>https://honzajde.github.io/</loc>
-        <lastmod>2017-06-10T15:53:18+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
         <loc>https://honzajde.github.io/trading-tools-streams/</loc>
         <lastmod>2017-06-10T15:53:18+02:00</lastmod>
       </url>
@@ -16,7 +9,14 @@
   
     
       <url>
-        <loc>https://honzajde.github.io/trading-tools-fundamentals/</loc>
+        <loc>https://honzajde.github.io/</loc>
+        <lastmod>2017-06-10T15:53:18+02:00</lastmod>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://honzajde.github.io/trading-tools-sa-fu/</loc>
         <lastmod>2017-06-10T15:52:58+02:00</lastmod>
       </url>
     
@@ -30,7 +30,7 @@
   
     
       <url>
-        <loc>https://honzajde.github.io/qa/</loc>
+        <loc>https://honzajde.github.io/trading-tools-qa/</loc>
         <lastmod>2017-06-10T15:41:32+02:00</lastmod>
       </url>
     
